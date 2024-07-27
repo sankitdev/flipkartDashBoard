@@ -1,5 +1,6 @@
 import Icon from "./Icon";
 import SearchBar from "./SearchBar";
+import ExcelUploader from "./ExcelUploader";
 
 const Nav = ({ toggleSideBar }) => {
   return (
@@ -9,7 +10,9 @@ const Nav = ({ toggleSideBar }) => {
           className="ri-menu-line absolute left-56 text-2xl"
           onClick={toggleSideBar}
         ></i>
+
         <SearchBar />
+        {/* <ExcelUploader /> */}
         <Icon />
       </div>
     </>

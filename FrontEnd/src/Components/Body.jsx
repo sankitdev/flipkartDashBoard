@@ -2,7 +2,6 @@ import Card from "./Card";
 import GraphCards from "./GraphCards";
 import sourceData from "./sourceData.json";
 import { Chart as ChartJS } from "chart.js/auto";
-import ExcelUploader from "./ExcelUploader";
 
 const Body = () => {
   const Data = ["Total Products", "Total Orders", "Total Profit", "New Orders"];
@@ -32,7 +31,6 @@ const Body = () => {
           <GraphCards chartType="Line" data={doughnutData} />
           <GraphCards chartType="Bar" data={doughnutData} />
         </div>
-        <ExcelUploader />
       </div>
     </>
   );
