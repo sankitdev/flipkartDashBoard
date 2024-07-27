@@ -6,6 +6,8 @@ node_modules/
 
 # Output directory
 dist/
+json/
+uploads/
 
 # Log files
 npm-debug.log*
